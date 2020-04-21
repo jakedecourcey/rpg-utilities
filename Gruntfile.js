@@ -18,7 +18,7 @@ module.exports = function(grunt) {
         jshint: {
             files: ['server.js'],
             options: {
-                esversion: 6
+                esversion: 8
             }
         }
     });
