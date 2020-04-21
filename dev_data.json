@@ -1,0 +1,97 @@
+{"name":"treasure","subTable":["art","coins","coins","coins","coins","coins","coins","gems","gems","low value goods","high value goods","high value goods","jeweled items","jeweled items","furniture","clothing","magic items"]}
+{"name":"art","subTable":["drawing","painting","painting","tapestry","carving","crystal","engraving","statue","china"]}
+{"name":"drawing","quantity":[1,1],"adjectives":["charcoal","pencil"],"unitWeight":0.1,"valueMultiplier":3,"art":1}
+{"name":"painting","quantity":[1,1],"adjectives":["watercolor","acrylic","oil"],"unitWeight":5,"valueMultiplier":3,"art":1}
+{"name":"tapestry","quantity":[1,1],"unitWeight":50,"valueMultiplier":3,"art":1}
+{"name":"carving","quantity":[1,1],"adjectives":["bone","wood","ivory","scrimshaw"],"unitWeight":3,"valueMultiplier":3,"art":1}
+{"name":"crystal","quantity":[1,1],"unit":"set of","unitWeight":5,"valueMultiplier":3,"art":1,"container":"small"}
+{"name":"engraving","quantity":[1,1],"adjectives":["stone","stone","stone","wood"],"unitWeight":5,"valueMultiplier":3,"art":1}
+{"name":"figurine","quantity":[1,1],"adjectives":["marble","iron", "gold", "silver", "ivory", "ceramic"],"unitWeight":10,"valueMultiplier":3,"art":1, "container": "small"}
+{"name":"statue","quantity":[1,1],"adjectives":["marble","granite"],"unitWeight":500,"valueMultiplier":3,"art":1}
+{"name":"china","quantity":[1,1],"unit":"set of","unitWeight":5,"valueMultiplier":3,"art":1,"container":"small"}
+{"name":"coins","subTable":["copper coins","silver coins","silver coins","gold coins","gold coins","platinum coins"]}
+{"name":"gold coins","unitWeight":0.02,"unitValue":1,"container":"small","valueMultiplier":1}
+{"name":"silver coins","unitWeight":0.02,"unitValue":0.1,"container":"large","valueMultiplier":0.5}
+{"name":"platinum coins","unitWeight":0.02,"unitValue":10,"container":"small","valueMultiplier":1}
+{"name":"copper coins","unitWeight":0.02,"unitValue":0.01,"valueMultiplier":0.1,"container":"large"}
+{"name":"gems","unitWeight":0.1,"valueMultiplier":2,"container":"small","quantity":[1,12]}
+{"name":"low value goods","subTable":["cotton","furs and hides","iron ingots","copper ingots","tin ingots","wine","ale","grain","sugar","spices","salt","cloth"]}
+{"name":"cotton","unit":"bundles of","unitWeight":1,"unitValue":1,"valueMultiplier":0.1,"container":"large", "quantity":[10,300]}
+{"name":"furs and hides","unitWeight":1,"unitValue":[1,4],"valueMultiplier":0.2,"container":"large", "quantity":[5,200]}
+{"name":"iron ingots","unitWeight":1,"unitValue":0.1,"valueMultiplier":0.01,"container":"large", "quantity":[5,300]}
+{"name":"copper ingots","unitWeight":1,"unitValue":0.5,"valueMultiplier":0.05,"container":"large", "quantity":[5,200]}
+{"name":"tin ingots","unitWeight":1,"unitValue":1,"valueMultiplier":0.1,"container":"large", "quantity":[5,100]}
+{"name":"wine","unit":"bottles of","unitWeight":8,"unitValue":[5,100],"valueMultiplier":0.1,"container":"large", "quantity":[1,50]}
+{"name":"ale","unit":"gallons of","unitWeight":13,"unitValue":0.2,"valueMultiplier":0.02,"container":"large", "quantity":[10,50]}
+{"name":"grain","unit":"sacks of","unitWeight":40,"unitValue":0.4,"valueMultiplier":0.04,"container":"large", "quantity":[5,50]}
+{"name":"spices","unit":"bags of","unitWeight":1,"unitValue":[1,10],"valueMultiplier":0.2,"container":"large", "quantity":[1,50]}
+{"name":"salt","unit":"sacks of","unitWeight":10,"unitValue":0.5,"valueMultiplier":0.005,"container":"large", "quantity":[2,20]}
+{"name":"cloth","unit":"rolls of","unitWeight":10,"unitValue":[1,5],"valueMultiplier":0.2,"container":"large", "quantity":[2,10]}
+{"name":"high value goods","subTable":["fine armor","fine weapons","fine tea","silk","silver ingots","silver ingots","gold ingots","gold ingots","platinum ingots","narcotics","perfume","books","books","books"]}
+{"name":"fine armor","unit": "pieces of","unitWeight": [20,60],"unitValue": 800,"valueMultiplier":2,"quantity":[5,50]}
+{"name":"fine weapons","unitWeight": 5,"unitValue": [10,30],"valueMultiplier":2,"quantity":[5,50]}
+{"name":"fine tea","unit": "bags of","unitWeight": 0.1,"unitValue": [2,5],"valueMultiplier":2,"quantity":[5,50],"container":"small"}
+{"name":"silk","unit": "rolls of","unitWeight": 10,"unitValue": [200,400],"valueMultiplier":2,"quantity":[5,20]}
+{"name":"silver ingots","unitWeight":1,"unitValue":5,"valueMultiplier":2,"quantity":[5,300],"container":"large"}
+{"name":"gold ingots","unitWeight":1,"unitValue":50,"valueMultiplier":2,"quantity":[5,200],"container":"large"}
+{"name":"platinum ingots","unitWeight":1,"unitValue":500,"valueMultiplier":2,"quantity":[5,100],"container":"large"}
+{"name":"narcotics","unit":"bags of","unitWeight":0.1,"unitValue":[100,500],"valueMultiplier":2,"quantity":[1,50],"container":"small"}
+{"name":"perfume","unit":"bottles of","unitWeight":0.2,"unitValue":[50,200],"valueMultiplier":2,"quantity":[1,5],"container":"small"}
+{"name":"books","unitWeight":1,"unitValue":[10,200],"valueMultiplier":2,"quantity":[1,10],"container":"large"}
+{"name":"jeweled items","subTable":["bracelet","bracelet","torc","small box","crown","crown","earring","goblet","idol","necklace","necklace","necklace","ring","ring","ring","egg","weapon","weapon","armor","armor"]}
+{"name":"bracelet","quantity":[1,1],"adjectives":["gold","silver","copper","bronze","iron","bone","wooden","leather"],"unitWeight":0.2,"valueMultiplier":3,"jeweledItem":1,"container":"small"}
+{"name":"torc","quantity":[1,1],"adjectives":["gold","silver","copper","bronze","iron","bone","wooden"],"unitWeight":0.2,"valueMultiplier":3,"jeweledItem":1,"container":"small"}
+{"name":"small box","quantity":[1,1],"adjectives":["gold","silver","copper","bronze","iron","bone","wooden"],"unitWeight":1,"valueMultiplier":3,"jeweledItem":1}
+{"name":"crown","quantity":[1,1],"adjectives":["gold","silver","copper","bronze","iron","bone","wooden"],"unitWeight":0.5,"valueMultiplier":3,"jeweledItem":1,"container":"small"}
+{"name":"earring","quantity":[1,1],"adjectives":["gold","silver","copper","bronze","iron","bone","wooden"],"unitWeight":0.1,"valueMultiplier":3,"jeweledItem":1,"container":"small"}
+{"name":"goblet","quantity":[1,1],"adjectives":["gold","silver","copper","bronze","iron","bone","wooden","stone"],"unitWeight":0.5,"valueMultiplier":3,"jeweledItem":1,"container":"small"}
+{"name":"idol","quantity":[1,1],"adjectives":["gold","silver","copper","bronze","iron","bone","wooden","stone"],"unitWeight":3,"valueMultiplier":3,"jeweledItem":1,"container":"small"}
+{"name":"necklace","quantity":[1,1],"adjectives":["gold","silver","copper","bronze","iron","bone","wooden","leather"],"unitWeight":0.2,"valueMultiplier":3,"jeweledItem":1,"container":"small"}
+{"name":"ring","quantity":[1,1],"adjectives":["gold","silver","copper","bronze","iron","bone","wooden","stone"],"unitWeight":0.1,"valueMultiplier":3,"jeweledItem":1,"container":"small"}
+{"name":"egg","quantity":[1,1],"adjectives":["gold","silver","copper","bronze","iron","wooden","stone","preserved"],"unitWeight":0.1,"valueMultiplier":3,"jeweledItem":1,"container":"small"}
+{"name":"weapon","quantity":[1,1],"adjectives":["gold-plated","silver-plated","gold-filigreed","silver-filigreed","engraved"],"unitWeight":10,"valueMultiplier":3,"jeweledItem":1,"container":"large"}
+{"name":"armor","quantity":[1,1],"adjectives":["gold-plated","silver-plated","gold-filigreed","silver-filigreed","engraved"],"unitWeight":20,"valueMultiplier":3,"jeweledItem":1,"container":"large"}
+{"name":"furniture","subTable":["altar","brazier","candelabrum","wardrobe","dresser","chest","idol","throne","rug"]}
+{"name":"altar","quantity":[1,1],"adjectives":["gold-inlaid","silver-inlaid","iron","bejeweled, bone","bejewled, wooden","engraved stone"],"unitWeight":500,"valueMultiplier":1}
+{"name":"brazier","quantity":[1,1],"adjectives":["gold-inlaid","silver-inlaid","iron","engraved, stone"],"unitWeight":100,"valueMultiplier":1}
+{"name":"candelabrum","quantity":[1,1],"adjectives":["gold","silver","iron","bejeweled, bone"],"unitWeight":3,"valueMultiplier":1,"jeweledItem":1}
+{"name":"wardrobe","quantity":[1,1],"adjectives":["gold-inlaid","silver-inlaid","bejewled, wooden","engraved, wooden"],"unitWeight":200,"valueMultiplier":1}
+{"name":"dresser","quantity":[1,1],"adjectives":["gold-inlaid","silver-inlaid","bejewled, wooden","engraved, wooden"],"unitWeight":200,"valueMultiplier":1}
+{"name":"chest","quantity":[1,1],"adjectives":["gold-inlaid","silver-inlaid","bejewled, wooden","engraved, wooden"],"unitWeight":200,"valueMultiplier":1}
+{"name":"idol","quantity":[1,1],"adjectives":["gold-plated","silver-plated","bejewled, wooden","engraved, wooden","bejewled, stone","engraved, stone","bejewled, iron","engraved, iron"],"unitWeight":50,"valueMultiplier":1}
+{"name":"throne","quantity":[1,1],"adjectives":["gold-plated","silver-plated","bejewled, wooden","engraved, wooden","bejewled, stone","engraved, stone","bejewled, iron","engraved, iron"],"unitWeight":50,"valueMultiplier":1}
+{"name":"rug","quantity":[1,1],"adjectives":["gold-woven","silver-woven","embroidered","fur"],"unitWeight":50,"valueMultiplier":1}
+{"name":"clothing","subTable":["belt","boots","cloak","coat","gloves","hat","handkerchief","purse","robe"]}
+{"name":"belt","quantity":[1,1],"adjectives":["gold-woven","silver-woven","embroidered","leather","fur"],"unitWeight":1,"valueMultiplier":1}
+{"name":"boots","quantity":[1,1],"adjectives":["gold-woven","silver-woven","bejeweled, leather","rare fur"],"unitWeight":2,"valueMultiplier":1}
+{"name":"cloak","quantity":[1,1],"adjectives":["gold-woven","silver-woven","embroidered","leather","rare fur"],"unitWeight":5,"valueMultiplier":1}
+{"name":"coat","quantity":[1,1],"adjectives":["gold-woven","silver-woven","embroidered","leather","rare fur"],"unitWeight":5,"valueMultiplier":1}
+{"name":"gloves","quantity":[1,1],"adjectives":["gold-woven","silver-woven","embroidered","leather","rare fur"],"unitWeight":1,"valueMultiplier":1}
+{"name":"hat","quantity":[1,1],"adjectives":["gold-woven","silver-woven","embroidered","leather","rare fur"],"unitWeight":1,"valueMultiplier":1}
+{"name":"handkerchief","quantity":[1,1],"adjectives":["gold-woven","silver-woven","embroidered","silk"],"unitWeight":0.2,"valueMultiplier":1}
+{"name":"purse","quantity":[1,1],"adjectives":["gold-woven","silver-woven","embroidered","leather","rare fur"],"unitWeight":0.2,"valueMultiplier":1}
+{"name":"robe","quantity":[1,1],"adjectives":["gold-woven","silver-woven","embroidered","leather","silk","rare fur"],"unitWeight":0.2,"valueMultiplier":1}
+{"name":"magic items"}
+{"name":"small containers","subTable":["bag","bag","chest","chest","chest","chest","jar","niche","barrel"]}
+{"name":"large containers","subTable":["sack","sack","barrel","chest","chest","chest","chest","urn"]}
+{"name":"bag","adjectives":["knit","silk","velvet","cloth","cloth","cloth"]}
+{"name":"sack","adjectives":["burlap","burlap","burlap","cloth"]}
+{"name":"barrel","adjectives":["wooden"]}
+{"name":"urn","adjectives":["clay","clay","sealed, clay","ceramic"]}
+{"name":"jar","adjectives":["clay","clay","sealed, clay","ceramic"]}
+{"name":"chest","adjectives":["wooden","wooden","wooden","wooden","wooden","metal","metal-bounded, wooden","metal-bounded, wooden","metal-bounded, wooden","painted, wooden"]}
+{"name":"niche","adjectives":["floor","wall","wall","wall","ceiling"]}
+{"name":"traps","subTable":["contact poison on the treasure","contact poison on the container","contact poison on the container","contact poison on the container","poisoned needles in the handle","poisoned needles in the handle","poisoned needles in the handle","poisoned spring darts","poison gas inside","magic"]}
+{"name":"contact poison on the treasure","DC":18}
+{"name":"contact poison on the container","DC":18}
+{"name":"poisoned needles in the handle","DC":20}
+{"name":"poisoned spring darts","DC":15}
+{"name":"poison gas inside","DC":20}
+{"name":"magic","DC":"varies"}
+{"name":"hiding spots","subTable":["concealed","concealed","concealed","concealed","concealed","invisible","in a secret compartment","in a secret compartment","disguised to appear as something else","disguised to appear as something else","disguised to appear as something else","under a heap of trash","under a loose stone"]}
+{"name":"concealed","DC":15}
+{"name":"invisible","DC":25}
+{"name":"in a secret compartment","DC":18}
+{"name":"disguised to appear as something else","DC":18}
+{"name":"under a heap of trash","DC":15}
+{"name":"under a loose stone","DC":20}

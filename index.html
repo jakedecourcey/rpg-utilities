@@ -1,16 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>RPG Utilities</title>
-</head>
-<body>
-  <h1>RPG Utilities</h1>
-  <form action='/add' method='POST'>
-      <input type='text' placeholder='name' name='name'>
-      <input type='text' placeholder='type' name='type'>
-      <button type='submit'>Add Treasure to List</button>
-  </form>
-</body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>RPG Tables</title>
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+    <div class="center">
+      <div class="top-box">
+        <h1>5e Treasure Interesting-ifier</h1>
+      </div>
+        <div class="box">
+        <form class="" action="/getTreasure" method="post">
+          <h2>CR of prevailing or boss monster:</h2>
+          <input id="divisor" type="number" name="CR" placeholder="1-20" required>
+          <br>
+        <button type="submit">Generate</button>
+      </form>
+      </div>
+    <hr class="hr1">
+    <div id="output">
+        <h2>Readme</h2>
+        <p>This tool combines the treasure by level information from the D&D 5e DMG with <a href="https://hackslashmaster.blogspot.com/2010/11/treasure-update.html">Courtney Campbell's "Treasure,"</a> which is a system-agnostic, free resource for generating interesting treasure. This tool is intended to help generate treasure owned or guarded by dungeon denizens. Enter the CR of the prevailing or "boss" enemy of each dungeon faction to return a list of all treasure owned by that faction. Then, simply spread it around their territory as appropriate, making sure to have intelligent enemies put it to good use! You will note that much of this treasure is merely gold-equivalent (gems, jewelry, etc). If that doesn't interest your group, simply switch it our for the gold piece equivalent. However, don't skip over the "boring stuff!" The sack of rare tea worth 1,000gp is more than just 1,000gp because it's heavy, bulky, fragile, and sensitive to water. Getting it out is half the battle.</p>
+    </div>
+  </div>
+  </body>
 </html>
-
