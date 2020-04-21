@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>RPG Tables</title>
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+    <div class="center">
+      <div class="top-box">
+        <h1>5e Treasure Interesting-ifier</h1>
+      </div>
+        <div class="box">
+        <form class="" action="/getTreasure" method="post">
+          <p>CR of prevailing or boss monster:</p>
+          <input id="divisor" type="number" name="CR" placeholder="1-20" required>
+          <br>
+        <button type="submit">Generate</button>
+      </form>
+      <form action="/listTreasure" method="post">
+          <button type="submit">List All</button>
+      </form>
+      </div>
+    <hr class="hr1">
+    <div id="output">
+      <% for(var i=0; i<bundles.length; i++) {%>
+        <p><%= bundles[i] %></p>
+        <hr>
+      <% } %>
+    </div>
+  </div>
+  </body>
+</html>

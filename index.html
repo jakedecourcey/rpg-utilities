@@ -6,10 +6,13 @@
 </head>
 <body>
   <h1>RPG Utilities</h1>
-  <form action='/add' method='POST'>
+  <form action='/addTreasure' method='POST'>
       <input type='text' placeholder='name' name='name'>
-      <input type='text' placeholder='type' name='type'>
+      <input type='text' placeholder='gold' name='gold'>
       <button type='submit'>Add Treasure to List</button>
+  </form>
+  <form action='/listTreasure' method='POST'>
+      <button type='submit'>Show Treasure in List</button>
   </form>
 </body>
 </html>
