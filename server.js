@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const MongoClient = require('mongodb').MongoClient;
 
 // Mongo connections details
-const connectionString = 'mongodb://192.168.50.5:27017';
+const connectionString = 'mongodb://localhost:27017';
 
 // Define express server
 const app = express ();
