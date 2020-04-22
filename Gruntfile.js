@@ -10,7 +10,7 @@ module.exports = function(grunt) {
 
         exec: {
             update_vagrant: {
-                command: 'vagrant provision --provision-with rsync web',
+                command: 'vagrant provision --provision-with rsync',
                 cwd: '/Users/jakedecourcey/aws-exercises/dev/'
             }
         },
